@@ -67,7 +67,7 @@ The following error occurs
 
 # Workaround
 
-Downlaod and modify the install script from [https://raw.githubusercontent.com/speakeasy-api/speakeasy/main/install.sh](https://raw.githubusercontent.com/speakeasy-api/speakeasy/main/install.sh) to install cli version 1.321.0 instead of latest 
+Download and modify the install script from [https://raw.githubusercontent.com/speakeasy-api/speakeasy/main/install.sh](https://raw.githubusercontent.com/speakeasy-api/speakeasy/main/install.sh) to install cli version 1.321.0 instead of latest 
 
 Build image with modified install script 
 
