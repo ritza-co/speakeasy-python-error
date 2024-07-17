@@ -36,12 +36,11 @@ docker run --platform linux/amd64 --rm -v "./app:/app" seimage speakeasy generat
 
 Generation generates for v1
 
-Follow instructions from
-[https://gist.github.com/TristanSpeakEasy/07d971ed2b484e7583804dd120ba2d1b](https://gist.github.com/TristanSpeakEasy/07d971ed2b484e7583804dd120ba2d1b)
-
 - Modify generated `app/se/.speakeasy/gen.yml`  and change `templateVersion: v1` to `templateVersion: v2`
 - Change the additonal dependencies section to (or remove) in `app/se/.speakeasy/gen.yml` ( if this is not done an error `validation error: gen.yaml validation error for python: additionalDependencies.extraDependencies.dev must be a string` will occur)
 
+> Following instructions from
+[https://gist.github.com/TristanSpeakEasy/07d971ed2b484e7583804dd120ba2d1b](https://gist.github.com/TristanSpeakEasy/07d971ed2b484e7583804dd120ba2d1b)
 ```
 additionalDependencies:
   dev: {}
